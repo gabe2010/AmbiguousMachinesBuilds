@@ -1,0 +1,42 @@
+html {
+  height: -webkit-fill-available;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  width: 100vw;
+  overflow: hidden;
+}
+.ctaDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #fffa;
+  z-index: 99;
+}
+
+.ctaDiv button {
+  padding: 10px 15px;
+  background: #008296;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.ctaDiv p {
+  max-width: 375px;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.ctaDiv select {
+  visibility: hidden;
+}
